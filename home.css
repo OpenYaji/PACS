@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f5f5f5; /* Light gray background */
+  background-image: linear-gradient(to right, #f06b6b, #f0966b); /* Gradient background */
+}
+
+header {
+  background-color: #333; /* Dark gray header */
+  color: #fff; /* White text */
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff; /* White text */
+  font-weight: bold; /* Bold font for navigation links */
+}
+
+nav a:hover {
+  color: #f0f0f0; /* Hover effect */
+}
+
+main {
+  padding: 20px;
+}
+
+h1, h2 {
+  text-align: center;
+  color: #333; /* Dark gray headings */
+  margin-bottom: 20px;
+}
+
+.hero {
+  text-align: center;
+  padding: 50px;
+  background-image: url("hero-image.jpg"); /* Replace with your hero image */
+  background-size: cover;
+  background-position: center;
+}
+
+.hero h1 {
+  color: #fff; /* White text over hero image */
+}
+
+.about-us, .pet-of-the-week, .donate, .contact-us {
+  padding: 20px;
+  background-color: #fff; /* White background for content sections */
+  border: 1px solid #ccc; /* Border around content sections */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a slight shadow */
+}
+
+.pet-of-the-week img {
+  max-width: 300px;
+  border-radius: 5px; /* Rounded corners for pet image */
+}
+
+.donate {
+  background-color: #ff9900; /* Orange background for donate section */
+  color: #fff; /* White text */
+}
+
+.donate a {
+  color: #fff; /* White text for donate link */
+}
+
+.donate a:hover {
+  color: #f0f0f0; /* Hover effect */
+}
+
+.back-to-homepage-button {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 5px 10px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    text-decoration: none;
+    color: #333;
+}
+
